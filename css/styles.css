@@ -1,0 +1,533 @@
+
+
+@font-face {
+    font-family: JillianChristmas;
+    src: url('MountainsofChristmas-Regular.ttf');
+}
+
+@font-face {
+    font-family: JillianGoudy;
+    src: url('GoudyBookletter1911.otf');
+}
+
+p {
+    font-family: JillianGoudy;
+    font-size: 30px;
+    color: white;
+    text-indent: 50px;
+}
+
+h2:hover {
+    color: orange;
+}
+
+h3.odd, h3.even {
+    font-family: JillianGoudy;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+span.entry {
+    color: #852DA5;
+    font-size: 40px;
+}
+
+legend {
+    font-size: 40px;
+    font-family: JillianGoudy;
+    color: white;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 350px;
+    font-family: JillianChristmas;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 3px solid #852DA5;
+    border-style: inherit;
+    border-collapse: collapse;
+}
+
+input[type=text] {
+    background-color: #94AED9;
+    border-color: #852DA5;
+    border-style: inherit;
+    border: 1px solid #852DA5;
+   
+}
+
+div#search input[type=text] {
+    background-color: #94AED9;
+    border-color: #852DA5;
+    border-style: inherit;
+   
+}
+
+div#crispSearch input[type=text] {
+    background-color: #92BE64;
+    border-color: #852DA5;
+    border-style: inherit;
+   
+}
+
+div#crisp2Search input[type=text] {
+    background-color: #92BE64;
+    border-color: #852DA5;
+    border-style: inherit;
+   
+}
+
+
+div#fictionarySearch input[type=text] {
+    background-color: #E5E540;
+    border-color: #852DA5;
+    border-style: inherit;
+   
+}
+
+div#achocolypseSearch input[type=text] {
+    background-color: #94AED9;
+    border-color: #852DA5;
+    border-style: inherit;
+   
+}
+
+
+div#superSearch input[type=text] {
+    background-color: #F0E103;
+    border-color: #852DA5;
+    border-style: inherit;
+   
+}
+
+textarea {
+    background-color: #94AED9;
+    border-radius: 25px;
+    border-color: #852DA5;
+    border-style: inherit;
+}
+
+
+input[type=submit], input[type=reset] {
+    background: #F2C32E;
+    color: white;
+    border: 3px solid #852DA5;
+    border-radius: 50px;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-size: 30px;
+    font-family: JillianChristmas;
+}
+
+h1.header {
+    font-family: JillianChristmas;
+    font-size: 100px;
+    background-color: #F2C32E;
+    color: #852DA5;
+    text-align: center;      
+}
+
+
+div#wrapper {
+    width:100%;
+    min-width:750px;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #5E80BD;
+    padding:20px;
+       
+}
+
+div#wrapperCrisp, div#wrapperCrisp2 {
+    width:100%;
+    min-width:750px;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #3F713B;
+    padding:20px;   
+}
+
+
+div#wrapperSuper{
+    width:100%;
+    min-width:750px;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #EF492F;
+    padding:20px;   
+}
+
+div#wrapperFiction {
+    width:100%;
+    min-width:750px;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #008DA8;
+    padding:20px;
+       
+}
+
+h2 {
+    font-family: JillianChristmas;
+    color: #852DA5;
+    font-size: 70px;
+    text-align: center;
+    font-family: JillianChristmas;           
+}
+       
+header {
+    background-color: white;
+    margin-left:auto;
+    margin-right:auto;
+    clear: both;
+             
+}
+
+footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F2C32E;
+    color: white;
+    clear: both;
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav {
+    background-color: #94AED9;
+}
+
+nav#Crisp, nav#Crisp2 {
+     background-color: #92BE64;
+}
+
+nav#Super {
+    background-color: #F0E103;
+}
+
+nav#Fiction {
+    background-color: #53BBC4;
+}
+
+
+        
+nav li {
+    display: inline-block;
+    background-color:#94AED9;
+    width: 150px;
+    margin: 0px 0px 0px 3px;
+    font-family: JillianChristmas;
+    font-size: 40px;
+    padding: 1px;
+    text-align: center;
+ 
+    
+}
+
+nav#Crisp li, nav#Crisp2 li {
+    display: inline-block;
+    background-color: #92BE64;
+    width: 150px;
+    margin: 0px 0px 0px 3px;
+    font-family: JillianChristmas;
+    font-size: 40px;
+    padding: 2px;
+    text-align: center;
+   
+}
+
+nav#Super li {
+    display: inline-block;
+    background-color: #F0E103;
+    width: 150px;
+    margin: 0px 0px 0px 3px;
+    font-family: JillianChristmas;
+    font-size: 40px;
+    padding: 2px;
+    text-align: center;
+    
+}
+
+nav#Fiction li {
+    display: inline-block;
+    background-color: #53BBC4;
+    width: 150px;
+    margin: 0px 0px 0px 3px;
+    font-family: JillianChristmas;
+    font-size: 40px;
+    padding: 2px;
+    text-align: center;
+    
+}
+
+nav li.current {
+    background-color: 
+}
+        
+a:link {
+    color:#852DA5;
+}
+
+a:visited { 
+    color:#EF6227;
+}
+a:hover { 
+    color:orange;
+}
+a:active { 
+    color:#852DA5;
+}
+
+main {
+    background-color: #94AED9;
+}
+
+main.home {
+     height: 1600px;
+     padding: 20px;
+}
+
+main.Crispmas {
+     height: 4000px;
+     background-image: url(../IMG/flakes.png);
+     background-repeat: repeat-x;
+     padding: 20px;
+     background-color: #92BE64;
+}
+
+main.Achocolypse {
+     height: 4000px;
+     padding: 20px;
+}
+
+main.Comp {
+    height: 2500;
+    padding: 20px;
+}
+
+main.Super {
+    height: 5200px;
+    padding: 20px;
+    background-color: #F0E103;
+}
+
+main.Fictionary {
+    padding: 20px;
+    background-color: #E5E540;
+}
+
+main.Crispmas2 {
+    padding: 20px;
+    background-image: url(../IMG/flakes.png);
+    background-repeat: repeat-x;
+    height: 4900px;
+    background-color: #92BE64;
+}
+        
+
+
+p q {
+    color: #852DA5;
+    font-family: JillianChristmas;
+    font-size: 40px;
+}
+
+blockquote {
+    color: #852DA5;
+    font-family: JillianChristmas;
+    font-size: 40px;
+}
+         
+p.End {
+    color: #852DA5;
+    font-family: JillianChristmas;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+div#entry {
+    background-color: #F2C32E;
+    border-color: #852DA5;
+    border-style: inherit;
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
+
+table.PC {
+    margin-right: auto;
+    margin-left:auto;
+    border: 8px #008DA8; 
+    border-style: groove;
+    border-collapse: collapse;
+    width:100%;
+    font-family: JillianGoudy;
+}
+    
+        
+th {
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-family: JillianChristmas;
+    font-size: 40px;
+}
+        
+        
+th, td {
+    padding: 20px;
+}
+        
+               
+td {
+    height: 50px;
+    vertical-align: middle;
+}
+        
+td, th {
+    border: 4px #008DA8 solid; 
+}
+        
+thead {
+    font-family: arial;
+    background-color: #008DA8;
+    font-size: 1.3em;
+}
+        
+tr,td {
+    font-size: 1.2em;
+    text-align: center;
+}
+        
+        
+tr.odd td {
+    background-color: #E5E540;
+}
+        
+tr.even td {
+    background-color: #53BBC4;
+}
+
+tr.odd:hover {
+    color: #9F0000;
+}
+
+
+tr.even:hover {
+    color: #9F0000;
+}
+    
+th:hover {
+    color: #9F0000;
+}
+        
+
+
+div#questions {
+    border-style: solid
+    border-top: 20px;
+    border-bottom: 20px;
+    color: white;
+    font-family: JillianChristmas;
+    background-color: #008DA8;
+}
+
+ol {
+    font-size: 40px;
+    background-color: #F5220E;
+}
+
+
+span.answer {
+    color: #F5220E;
+}
+
+span.answer:hover {
+    color: white;
+   
+}
+
+span.warning {
+    color: #EF6227;
+    font-size: 40px;
+}
+
+span.P {
+    font-family: JillianChristmas;
+    font-size: 60px;
+}
+
+p.theEnd {
+    text-align: center;
+    font-family: JillianChristmas;
+    font-size: 20px;
+}
+
+p.partTwo {
+     background-image: url(../IMG/xmasflake.png);
+     background-repeat: repeat-x;
+     text-align: center;
+}
+
+select#age {
+    background-color: #94AED9;
+}
+
+div.read_More span.clickHere {
+    text-align: center;
+}
+
+p.footer img {
+    align-content: center;
+}
+
+h4 {
+    font-family: JillianGoudy;
+    font-size: 30px;
+    color: #EF6227;
+}
+
+span.PS {
+    color: white;
+}
+
+h2#fiction {
+    font-family: JillianChristmas;
+    font-size: 50px;
+    color:#EF6227;
+}
+
+p#arrow {
+    color: #852DA5;
+    font-family: JillianGoudy;
+}
+
+span.dare {
+    color: #EF6227;
+}
+
+h2.achoc {
+    color:saddlebrown;
+}
+
+div#superColor p {
+    color: #852DA5;
+}
+
